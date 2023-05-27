@@ -1,6 +1,5 @@
-```
+``` typescript
 "use client";
-
 export default function Home() {
   let poolBalance: number = 0; // Pool balance in USDT
   const tokenWeights: { [key: string]: number } = {
